@@ -1,0 +1,81 @@
+<resources>
+    <string name="instagram_app">My Application</string>
+    <string name="person1">Anime1</string>
+    <string name="person2">Anime2</string>
+    <string name="person3">Anime3</string>
+    <string name="person4">Anime4</string>
+    <string name="person5">Anime5</string>
+    <string name="person6">Anime6</string>
+    <string name="person7">Anime7</string>
+    <string name="posts">Posts</string>
+    <string name="btnLike">Like</string>
+    <string name="btnShare">Share</string>
+    <string name="akebi">Akebi</string>
+    <string name="gojo">Gojo</string>
+    <string name="mina">Mina</string>
+    <string name="miyamura">Miyamura</string>
+    <string name="nagi">Nagi</string>
+    <string name="sonozaki">Sonozaki</string>
+    <string name="takina">Takina</string>
+    <string name="gojoCaption">Dota 2 new update is here!</string>
+    <string name="nagiCaption">Watching some match</string>
+    <string name="minaCaption">Honkai Star Rail is coming!!!</string>
+    <string name="miyamuraCaption">Going to go out with Hori</string>
+    <string name="akebiCaption">Akebi Sailor Uniform is really liked by many</string>
+    <string name="sonozakiCaption">Got pictures of three cute kids</string>
+    <string name="takinaCaption">Thank you for supporting our show</string>
+    //Layout strings
+    <string name="app_name">MyFirstApplication1</string>
+    <string name="layoutName">Layout Exercise</string>
+    <string name="btn1">Instagram</string>
+    <string name="btn2">Button Exercise</string>
+    <string name="btn3">Calculator</string>
+    <string name="btn4">Midterm</string>
+    <string name="btn5">Match 3</string>
+    <string name="btn6">Passing Intents</string>
+    //Button activity strings
+    <string name="btnClose">Close</string>
+    <string name="btnToast">Toast</string>
+    <string name="btnChangeBg">Change BG</string>
+    <string name="btnChangeButtonBackground">Change Button Background</string>
+    <string name="btnDisappear">Disappear</string>
+    <string name="btnReturn">Return</string>
+    //Calculator strings
+    <string name="btnZero">0</string>
+    <string name="btnOne">1</string>
+    <string name="btnTwo">2</string>
+    <string name="btnThree">3</string>
+    <string name="btnFour">4</string>
+    <string name="btnFive">5</string>
+    <string name="btnSix">6</string>
+    <string name="btnSeven">7</string>
+    <string name="btnEight">8</string>
+    <string name="btnNine">9</string>
+    <string name="btnDot">.</string>
+    <string name="btnPlus">+</string>
+    <string name="btnDivide">/</string>
+    <string name="btnMultiply">*</string>
+    <string name="btnSubtract">-</string>
+    <string name="btnEquals">=</string>
+    //Passing Intents Exercise
+    <string name="txtStudentRegistrationForm">Student Registration Form</string>
+    <string name="txtCompleteName">Complete Name</string>
+    <string name="txtFirstName">First Name</string>
+    <string name="txtLastName">Last Name</string>
+    <string name="txtGender">Gender</string>
+    <string name="txtMale">Male</string>
+    <string name="txtFemale">Female</string>
+    <string name="txtOthers">Others</string>
+    <string name="txtBirthDate">Birth Date</string>
+    <string name="txtPhoneNumber">Phone Number</string>
+    <string name="txtEmail">Email Address</string>
+    <string name="btnClear">Clear</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="txtCountry">Country</string>
+    <string name="txtAddress">Address</string>
+    <string name="txtProvince">Province</string>
+    <string name="txtCity">City</string>
+    <string name="txtZipCode">Zip Code</string>
+    <string name="txtStudentProfile">Student Profile</string>
+
+</resources>

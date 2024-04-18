@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CalculatorActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btnDot"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="25sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnDot"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnZero"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnZero"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnPlus"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnEquals"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginEnd="25sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnEquals"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="25sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnOne"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnTwo"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnThree"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnSubtract"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginEnd="25sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnSubtract"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="25sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnFour"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnFive"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnSix"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnMultiply"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginEnd="25sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnMultiply"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="25sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnSeven"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnEight"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnNine"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/btnDivide"
+            android:layout_width="78dp"
+            android:layout_height="78dp"
+            android:layout_marginEnd="25sp"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="@string/btnDivide"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/answerField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="textEnd"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/inputField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textAlignment="textEnd"
+            android:textSize="35sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
