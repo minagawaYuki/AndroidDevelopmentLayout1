@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
@@ -11,6 +13,7 @@ public class PassingIntentsExercise2 extends AppCompatActivity {
 
     TextView tFname, tLname, tGender, tBdate, tPnum, tEmail, tCountry, tAddress, tProvince, tCity,
                 tCode;
+    Button btnReturn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,6 +52,16 @@ public class PassingIntentsExercise2 extends AppCompatActivity {
         tCountry.setText(country);  tAddress.setText(address);
         tProvince.setText(province);  tCity.setText(city);
         tCode.setText(code);
+
+        btnReturn = (Button) findViewById(R.id.btnReturnPassIntent);
+
+        btnReturn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
 
     }
 }

@@ -33,6 +33,7 @@
     <string name="btn4">Midterm</string>
     <string name="btn5">Match 3</string>
     <string name="btn6">Passing Intents</string>
+    <string name="btn7">Menus</string>
     //Button activity strings
     <string name="btnClose">Close</string>
     <string name="btnToast">Toast</string>
@@ -77,5 +78,15 @@
     <string name="txtCity">City</string>
     <string name="txtZipCode">Zip Code</string>
     <string name="txtStudentProfile">Student Profile</string>
+    //Menus Exercise
+    <string name="txtMenuTitle">MidtermRecap</string>
+    <string name="txtChange">Change</string>
+    <string name="txtReset">Reset</string>
+    <string name="txtExit">Exit</string>
+    <string name="txtChangeBgColor">Change Bg Color</string>
+    <string name="txtSetText">Set Text</string>
+    <string name="txtHide">Hide</string>
+    <string name="txtChangeFontColor">Change Font Color</string>
+    <string name="txtChangeShape">Change Shape</string>
 
 </resources>

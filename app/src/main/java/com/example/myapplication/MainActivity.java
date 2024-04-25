@@ -13,7 +13,7 @@ import com.example.myapplication.R;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn1, btn2, btn3, btn4, btn5;
+    Button btn1, btn2, btn3, btn4, btn5, btn6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +57,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent1 = new Intent(
                         MainActivity.this, PassingIntentsExercise.class
+                );
+                startActivity(intent1);
+            }
+        });
+        btn6 = (Button) findViewById(R.id.btnMenus);
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(
+                        MainActivity.this, MenuExercise.class
                 );
                 startActivity(intent1);
             }

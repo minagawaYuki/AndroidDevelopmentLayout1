@@ -249,6 +249,12 @@
                     android:layout_weight="1"
                     android:text="TextView" />
             </LinearLayout>
+
+            <Button
+                android:id="@+id/btnReturnPassIntent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnReturn" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
