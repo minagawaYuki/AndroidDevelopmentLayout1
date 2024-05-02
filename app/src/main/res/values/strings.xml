@@ -88,5 +88,7 @@
     <string name="txtHide">Hide</string>
     <string name="txtChangeFontColor">Change Font Color</string>
     <string name="txtChangeShape">Change Shape</string>
+    //Opening Maps Exercise
+    <string name="txtOpeningMaps">Opening Maps</string>
 
 </resources>
